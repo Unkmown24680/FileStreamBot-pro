@@ -22,7 +22,7 @@ async def maintainers(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", "psmoviegroup")
+                                InlineKeyboardButton("Developer💻", url=f"https://telegram.me/psmoviegroup")
                             ]
                         ]
                     ),
@@ -42,7 +42,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", "psmoviegroup")
+                                InlineKeyboardButton("FOLLOW ME", url=f"https://telegram.me/psmovieworld")
                             ]
                         ]
                     ),
