@@ -55,8 +55,8 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/0bb49623bb75e3035b331.jpg",
-                caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
+                photo="https://telegra.ph/file/d267f232d4dead7af44f5.jpg",
+                caption="<i>Only SUBSCRIBERS of my channel can use..\n\n Join now to use me🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
