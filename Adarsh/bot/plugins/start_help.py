@@ -79,7 +79,7 @@ async def start(b, m):
         photo ="https://telegra.ph/file/d267f232d4dead7af44f5.jpg",
         caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\n\nSend me any file and get a direct download link and streamable link! \nI'ᴍ ғʀᴏᴍ <a href="https://t.me/requestyourmoviehere">Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ</a> 👻
 • Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ <a href="https://t.me/share/url?url=https://t.me/requestyourmoviehere">Sʜᴀʀᴇ Mᴇ</a> 🥱
-• ᴍᴜsᴛ ᴊᴏɪɴ <a href="https://t.me/hotflashdealss">Dᴇᴀʟs</a> 😉</b>',
+• ᴍᴜsᴛ ᴊᴏɪɴ <a href="https://t.me/hotflashdealss">Dᴇᴀʟs</a> 😉</b>,
         reply_markup=buttonz)
 
 
