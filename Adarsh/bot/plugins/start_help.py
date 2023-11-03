@@ -70,14 +70,16 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://github.com/SM_contactadmin_bot'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://telegrame.me/SM_contactadmin_bot'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/6a07f35e16db46f6dc188.mp4",
-        caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\nSend me any file and get a direct download link and streamable link! \nHelp others by sharing me😁',
+        photo ="https://telegra.ph/file/d267f232d4dead7af44f5.jpg",
+        caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\n\nSend me any file and get a direct download link and streamable link! \nI'ᴍ ғʀᴏᴍ <a href="https://t.me/requestyourmoviehere">Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ</a> 👻
+• Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ <a href="https://t.me/share/url?url=https://t.me/requestyourmoviehere">Sʜᴀʀᴇ Mᴇ</a> 🥱
+• ᴍᴜsᴛ ᴊᴏɪɴ <a href="https://t.me/hotflashdealss">Dᴇᴀʟs</a> 😉</b>',
         reply_markup=buttonz)
 
 
@@ -129,7 +131,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("Amazing Deals⚡🔥😱", url="https://telegram.me/hotflashdealss")],
-                [InlineKeyboardButton("Join Back uP & Update Channel👀", url="https://telegram.me/movierulzking")]
+                [InlineKeyboardButton("Join Back up & Update Channel👀", url="https://telegram.me/movierulzking")]
             ]
         )
     )
