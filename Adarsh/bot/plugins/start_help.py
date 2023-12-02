@@ -77,7 +77,7 @@ async def start(b, m):
     await StreamBot.send_photo(
         chat_id=m.chat.id,
         photo ="https://graph.org/file/85afa053b7342fa83bc93.jpg",
-        caption =f'Hi {m.from_user.mention(style="md")}!,\nI am File to Link Generator Bot with Channel suppor send me any file or video and get a direct download link📥 & streamable link🖥️ \n\nDon't forget to Share Me who don't know me😶‍🌫️',
+        caption =f'Hi {m.from_user.mention(style="md")}!,\nI Am File To Link Generator Bot with Channel Support.\n\nSend Me Any File & Get a Direct Download Link📥 & Streamable Link!🖥️ \n\nDo Not Forget To Share Me Who Don't Know Me 😜 ',
         reply_markup=buttonz)
 
 
